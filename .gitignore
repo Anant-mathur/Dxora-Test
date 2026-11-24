@@ -1,0 +1,15 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# local artifacts
+bench_out*/
+bench*.out
+bench*.err
+server.log
+server.err
+out_*.json
+CLAUDE.md
+.claude/

@@ -1,0 +1,346 @@
+{
+ "success": true,
+ "website": "https://plausible.io/",
+ "brand": {
+  "name": "Plausible Analytics",
+  "category": "Web Analytics SaaS",
+  "summary": "Plausible is a lightweight, open-source, and privacy-friendly alternative to Google Analytics. It provides essential website traffic insights without using cookies or collecting personal data."
+ },
+ "analysis": {
+  "competitor_analysis": {
+   "brand_overview": "An independent, EU-hosted analytics platform focused on simplicity, speed, and GDPR compliance.",
+   "main_category": "Privacy-focused Web Analytics",
+   "main_products_services": [
+    "Web traffic analytics",
+    "Goal and conversion tracking",
+    "Real-time dashboard",
+    "Funnel analysis",
+    "SEO integration"
+   ],
+   "brand_profile": {
+    "main_service": "Privacy-first website analytics",
+    "target_market": "Website owners and businesses seeking GDPR compliance",
+    "key_strength": "Lightweight script and no cookie banner requirement",
+    "opportunity": "Expanding enterprise features to capture users migrating from complex legacy tools"
+   },
+   "competitors": [
+    {
+     "name": "Matomo",
+     "website": "matomo.org",
+     "main_service": "Self-hosted and cloud analytics",
+     "target_market": "Enterprises and privacy-conscious organizations",
+     "key_strength": "Full data ownership and extensive feature set",
+     "strengths": [
+      "Highly customizable",
+      "Self-hosting option"
+     ],
+     "weaknesses": [
+      "Complex setup",
+      "Heavier script"
+     ],
+     "confidence": "high",
+     "source": "ai_generated_suggestion"
+    },
+    {
+     "name": "Fathom Analytics",
+     "website": "usefathom.com",
+     "main_service": "Simple privacy-focused analytics",
+     "target_market": "Small businesses and developers",
+     "key_strength": "Extremely simple interface",
+     "strengths": [
+      "User-friendly",
+      "Fast performance"
+     ],
+     "weaknesses": [
+      "Fewer advanced features than Plausible"
+     ],
+     "confidence": "high",
+     "source": "ai_generated_suggestion"
+    },
+    {
+     "name": "Google Analytics",
+     "website": "analytics.google.com",
+     "main_service": "Comprehensive web analytics",
+     "target_market": "Global market",
+     "key_strength": "Deep integration with Google ecosystem",
+     "strengths": [
+      "Free tier",
+      "Advanced reporting"
+     ],
+     "weaknesses": [
+      "Privacy concerns",
+      "Complex UI"
+     ],
+     "confidence": "high",
+     "source": "ai_generated_suggestion"
+    }
+   ],
+   "competitor_strengths": [
+    "Matomo: Highly customizable",
+    "Matomo: Self-hosting option",
+    "Fathom Analytics: User-friendly",
+    "Fathom Analytics: Fast performance",
+    "Google Analytics: Free tier",
+    "Google Analytics: Advanced reporting"
+   ],
+   "competitor_gaps": [
+    "Matomo: Complex setup",
+    "Matomo: Heavier script",
+    "Fathom Analytics: Fewer advanced features than Plausible",
+    "Google Analytics: Privacy concerns",
+    "Google Analytics: Complex UI"
+   ],
+   "strengths": [
+    "GDPR compliance without cookie banners",
+    "Lightweight script size",
+    "Open-source transparency",
+    "EU-hosted infrastructure",
+    "Simple, one-page dashboard"
+   ],
+   "opportunities": [
+    "Targeting AI-driven traffic analysis",
+    "Expanding white-label offerings for agencies",
+    "Strengthening enterprise-grade security features"
+   ],
+   "comparison_table": [
+    {
+     "attribute": "Brand Name",
+     "your_brand": "Plausible Analytics",
+     "competitors": {
+      "Matomo": "Matomo",
+      "Fathom Analytics": "Fathom Analytics",
+      "Google Analytics": "Google Analytics"
+     }
+    },
+    {
+     "attribute": "Main Service",
+     "your_brand": "Privacy-first website analytics",
+     "competitors": {
+      "Matomo": "Self-hosted and cloud analytics",
+      "Fathom Analytics": "Simple privacy-focused analytics",
+      "Google Analytics": "Comprehensive web analytics"
+     }
+    },
+    {
+     "attribute": "Target Market",
+     "your_brand": "Website owners and businesses seeking GDPR compliance",
+     "competitors": {
+      "Matomo": "Enterprises and privacy-conscious organizations",
+      "Fathom Analytics": "Small businesses and developers",
+      "Google Analytics": "Global market"
+     }
+    },
+    {
+     "attribute": "Key Strength",
+     "your_brand": "Lightweight script and no cookie banner requirement",
+     "competitors": {
+      "Matomo": "Full data ownership and extensive feature set",
+      "Fathom Analytics": "Extremely simple interface",
+      "Google Analytics": "Deep integration with Google ecosystem"
+     }
+    },
+    {
+     "attribute": "Opportunity",
+     "your_brand": "Expanding enterprise features to capture users migrating from complex legacy tools",
+     "competitors": {
+      "Matomo": "",
+      "Fathom Analytics": "",
+      "Google Analytics": ""
+     }
+    }
+   ]
+  },
+  "target_search_queries": [
+   {
+    "query": "privacy friendly google analytics alternative",
+    "platforms": [
+     "Google"
+    ],
+    "intent": "Commercial",
+    "business_relevance": "High",
+    "target_audience": "Website owners",
+    "search_volume": null
+   },
+   {
+    "query": "how to track website traffic without cookies",
+    "platforms": [
+     "Google"
+    ],
+    "intent": "Informational",
+    "business_relevance": "Medium",
+    "target_audience": "Developers",
+    "search_volume": null
+   },
+   {
+    "query": "GDPR compliant analytics for small business",
+    "platforms": [
+     "Facebook"
+    ],
+    "intent": "Commercial",
+    "business_relevance": "High",
+    "target_audience": "Small business owners",
+    "search_volume": null
+   },
+   {
+    "query": "best analytics tool for agencies",
+    "platforms": [
+     "LinkedIn"
+    ],
+    "intent": "Commercial",
+    "business_relevance": "High",
+    "target_audience": "Agency owners",
+    "search_volume": null
+   },
+   {
+    "query": "lightweight website analytics script",
+    "platforms": [
+     "X"
+    ],
+    "intent": "Discovery",
+    "business_relevance": "Medium",
+    "target_audience": "Web designers",
+    "search_volume": null
+   }
+  ],
+  "seo_improvements": {
+   "primary_keyword": "privacy-friendly analytics",
+   "secondary_keywords": [
+    "open-source analytics",
+    "GDPR compliant analytics",
+    "Google Analytics alternative"
+   ],
+   "long_tail_keywords": [
+    "how to replace google analytics",
+    "lightweight website traffic tracking"
+   ],
+   "business_keywords": [
+    "website insights",
+    "conversion tracking",
+    "EU-hosted analytics"
+   ],
+   "recommended_title": "Plausible Analytics | Simple, Privacy-Friendly GA Alternative",
+   "title_rationale": "Optimized for search intent while highlighting the core value proposition of privacy and simplicity.",
+   "meta_description": "Plausible is a lightweight, open-source Google Analytics alternative. Get clear insights without cookies or GDPR consent banners.",
+   "supporting_content": [
+    {
+     "type": "article",
+     "title": "Migrating from GA4 to Plausible",
+     "reason": "Addresses the primary pain point of users looking to switch from Google Analytics."
+    },
+    {
+     "type": "industry page",
+     "title": "Analytics for Agencies",
+     "reason": "Highlights white-label features for a high-value customer segment."
+    }
+   ]
+  },
+  "top_services": [
+   {
+    "name": "Web Traffic Analytics",
+    "description": "Real-time, simple dashboard for tracking site visits and sources.",
+    "target_industry": "All",
+    "target_customer": "Website owners",
+    "main_benefit": "Clear insights without complexity",
+    "source": "website"
+   },
+   {
+    "name": "Goal and Conversion Tracking",
+    "description": "Codeless tracking for file downloads, forms, and external links.",
+    "target_industry": "Ecommerce",
+    "target_customer": "Marketers",
+    "main_benefit": "Measure business success without tag managers",
+    "source": "website"
+   },
+   {
+    "name": "AI Traffic Monitoring",
+    "description": "Identify and analyze traffic coming from AI tools like ChatGPT.",
+    "target_industry": "SaaS",
+    "target_customer": "Content creators",
+    "main_benefit": "Understand AI-driven user behavior",
+    "source": "website"
+   },
+   {
+    "name": "White-label Analytics",
+    "description": "Customizable reporting dashboards for agency clients.",
+    "target_industry": "Agencies",
+    "target_customer": "Agency owners",
+    "main_benefit": "Professional reporting for clients",
+    "source": "website"
+   },
+   {
+    "name": "GDPR Compliance Consulting",
+    "description": "Guidance on privacy-first data collection standards.",
+    "target_industry": "Public Sector",
+    "target_customer": "Compliance officers",
+    "main_benefit": "Legal peace of mind",
+    "source": "inferred"
+   }
+  ],
+  "target_audience": {
+   "primary_audience": [
+    "Website owners",
+    "Developers",
+    "Marketers"
+   ],
+   "secondary_audience": [
+    "Agency owners",
+    "Privacy advocates"
+   ],
+   "industries": [
+    "SaaS",
+    "Ecommerce",
+    "Public Sector",
+    "Publishing"
+   ],
+   "business_types": [
+    "Small to medium businesses",
+    "Enterprises",
+    "Agencies"
+   ],
+   "customer_profiles": [
+    "Privacy-conscious tech leads",
+    "Efficiency-focused marketers"
+   ],
+   "geographic_focus": [
+    "European Union",
+    "Global"
+   ],
+   "customer_needs": [
+    "GDPR compliance",
+    "Site speed",
+    "Simplicity",
+    "Data ownership"
+   ],
+   "interests": [
+    "Data privacy",
+    "Web performance",
+    "Open source software"
+   ],
+   "recommended_segments": [
+    "Agencies needing white-labeling",
+    "SaaS companies tracking AI traffic"
+   ]
+  }
+ },
+ "meta": {
+  "provider": "gemini",
+  "model": "gemini-3.1-flash-lite",
+  "cached": false,
+  "pages_fetched": [
+   "https://plausible.io/",
+   "https://plausible.io/features",
+   "https://plausible.io/about"
+  ],
+  "input_tokens": 3862,
+  "output_tokens": 1800,
+  "estimated_cost_usd": 0.003666,
+  "fetch_ms": 1079,
+  "llm_ms": 6778,
+  "total_ms": 7859,
+  "warnings": [],
+  "notes": [
+   "Competitors are AI-generated suggestions from the model's general knowledge, not live research.",
+   "No search volume data is included: none was available from a real data source."
+  ]
+ }
+}

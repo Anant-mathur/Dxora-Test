@@ -1,0 +1,40 @@
+﻿### Private address (SSRF): loopback
+curl -X POST http://localhost:4000/link-analysis -H 'Content-Type: application/json' -d '{"url":"http://127.0.0.1"}'
+HTTP 403
+{"success":false,"error":{"code":"URL_NOT_ALLOWED","message":"This address is private or internal and cannot be analyzed."}}
+
+### Cloud metadata address (SSRF)
+curl -X POST http://localhost:4000/link-analysis -H 'Content-Type: application/json' -d '{"url":"http://169.254.169.254/latest/meta-data"}'
+HTTP 403
+{"success":false,"error":{"code":"URL_NOT_ALLOWED","message":"This address is private or internal and cannot be analyzed."}}
+
+### Private network range
+curl -X POST http://localhost:4000/link-analysis -H 'Content-Type: application/json' -d '{"url":"http://192.168.1.1"}'
+HTTP 403
+{"success":false,"error":{"code":"URL_NOT_ALLOWED","message":"This address is private or internal and cannot be analyzed."}}
+
+### Domain that does not exist
+curl -X POST http://localhost:4000/link-analysis -H 'Content-Type: application/json' -d '{"url":"https://this-domain-does-not-exist-xyz123.com"}'
+HTTP 422
+{"success":false,"error":{"code":"WEBSITE_UNREACHABLE","message":"Could not resolve the domain 'this-domain-does-not-exist-xyz123.com'."}}
+
+### Malformed URL
+curl -X POST http://localhost:4000/link-analysis -H 'Content-Type: application/json' -d '{"url":"not a url"}'
+HTTP 400
+{"success":false,"error":{"code":"INVALID_URL","message":"URL is too long or contains whitespace/control characters."}}
+
+### Missing url field
+curl -X POST http://localhost:4000/link-analysis -H 'Content-Type: application/json' -d '{}'
+HTTP 422
+{"success":false,"error":{"code":"INVALID_REQUEST","message":"Request body is invalid. Send JSON like {\"url\": \"https://example.com\"}.","details":[{"field":"url","message":"Field required"}]}}
+
+### Successful analysis (truncated)
+curl -X POST http://localhost:4000/link-analysis -H 'Content-Type: application/json' -d '{"url":"https://www.dreamfolks.in"}'
+HTTP 200
+{"success":true,"website":"https://www.dreamfolks.in/","brand":{"name":"DreamFolks","category":"Travel and Lifestyle Services Aggregator","summary":"DreamFolks is a global travel and lifestyle services aggregator that provides premium benefits like lounge access and concierge services. They specialize in B2B solutions for banks, card networks, airlines, and enterprises to enhance customer loyalty and engagement."},"analysis":{"competitor_analysis":{"brand_overview":"A technology-driven aggregator connecting service providers with businesses to offer premium travel and lifestyle perks.","main_c ...(truncated)
+
+### pytest
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+50 passed, 1 warning in 4.41s
+
