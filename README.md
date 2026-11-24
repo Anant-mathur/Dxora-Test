@@ -2,8 +2,9 @@
 
 FastAPI service with one endpoint, `POST /link-analysis`. Send a website URL. It fetches the site safely, extracts the real content, makes **one** LLM call, validates the answer against a strict schema and returns five structured sections: competitors, five search queries, SEO improvements, top services and target audience.
 
-- **Live demo:** `TODO https://your-domain.com`
-- **API docs:** `TODO https://your-domain.com/docs`
+- **Live demo:** <https://dxora-test.onrender.com>
+- **API docs (Swagger):** <https://dxora-test.onrender.com/docs>
+- **Endpoint:** `POST https://dxora-test.onrender.com/link-analysis`
 - **LLM research and final recommendation:** see [LLM platform and model research](#llm-platform-and-model-research)
 
 ## How it works
