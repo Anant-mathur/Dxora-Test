@@ -266,4 +266,6 @@ Not implemented, worth doing at scale: provider prompt caching for the static sy
 
 - [docs/evidence_logs.txt](docs/evidence_logs.txt): real `curl` requests and responses against the running server for SSRF rejections (loopback, cloud-metadata address, private range), a nonexistent domain, a malformed URL, a missing field, a successful analysis, and the `pytest` result (50 passed).
 - [docs/sample_response_plausible.json](docs/sample_response_plausible.json): complete real response.
-- Swagger UI and live-deployment screenshots: `TODO add after deploy` (place images in `docs/`).
+- Swagger UI on the live deployment (`POST /link-analysis`):
+
+  ![Swagger UI](docs/swagger.png)
